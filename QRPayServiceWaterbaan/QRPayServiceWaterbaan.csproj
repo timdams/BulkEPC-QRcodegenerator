@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <FileVersion>2025.11.8.29</FileVersion>
+    <!-- Assembly / distributie metadata -->
+    <AssemblyName>BulkEpcQrCodeGenerator</AssemblyName>
+    <Title>Bulk EPC Qr Code generator</Title>
+    <Product>Bulk EPC Qr Code generator</Product>
+    <Description>Generator voor EPC SEPA betalings QR codes (individueel en bulk).</Description>
+    <Authors>Tim</Authors>
+    <Company>Tim</Company>
+    <PackageId>BulkEpcQrCodeGenerator</PackageId>
+    <!-- ApplicationIcon tijdelijk verwijderd tot definitief icoon beschikbaar is -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QRCoder" Version="1.7.0" />
+    <!-- MahApps.Metro voor modern UI -->
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+  </ItemGroup>
+
+  <!-- Icoon als resource zodat Window het kan laden; vervang app.ico later door definitieve versie -->
+  <ItemGroup>
+    <Resource Include="Assets\app.ico" />
+  </ItemGroup>
+
+</Project>
