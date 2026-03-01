@@ -2,6 +2,8 @@
 
 Desktop WPF (.NET 9) applicatie om EPC/SEPA betaalketen QR-codes te genereren (niet compatibel met Payconiq). Ondersteunt één enkele QR en bulk-generatie vanuit een tekstbestand. De gegenereerde PNG bevat onder de QR-kode ook de leesbare transactie-informatie (Naam, IBAN, Bedrag, Opmerking). De preview en kopieerfunctie gebruiken dezelfde samengestelde afbeelding.
 
+![](dem.png)
+
 ## Belangrijkste features
 - Enkele QR-code generatie (Naam, IBAN, Bedrag, optionele Opmerking)
 - Preview met onder de QR alle details (tekst altijd zichtbaar op witte achtergrond)
